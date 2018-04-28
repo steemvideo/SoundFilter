@@ -1,0 +1,196 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SOUNDPROP, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 438
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SOUNDPROP DIALOGEX 0, 0, 293, 446
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "混合声道",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,219,14,48,10
+    CONTROL         "右声道",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,162,14,40,10
+    CONTROL         "左声道",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,100,14,40,10
+    CONTROL         "立体声",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,46,14,40,10
+    CONTROL         "左声道扩展到全部",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,45,27,78,10
+    CONTROL         "左声道扩展到全部",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,183,27,80,10
+    LTEXT           "声道：",IDC_STATIC,14,15,27,12
+    COMBOBOX        IDC_COMBO2,57,42,50,28,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "选择音频流",IDC_STATIC,11,44,46,12
+    LTEXT           "声音延迟",IDC_STATIC,129,43,34,10
+    EDITTEXT        IDC_EDIT2,166,42,62,13,ES_AUTOHSCROLL
+    LTEXT           "音量放大",IDC_STATIC,11,62,40,12
+    GROUPBOX        "",IDC_STATIC,5,87,282,128
+    CONTROL         "启用均衡器",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,88,56,10
+    COMBOBOX        IDC_COMBO3,15,198,54,180,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "音量平衡",IDC_STATIC,90,201,35,10
+    PUSHBUTTON      "还原默认设置",IDC_BUTTON1,222,198,29,13
+    GROUPBOX        "",IDC_STATIC,5,5,282,74
+    LTEXT           "31.5",IDC_STATIC,13,179,22,9
+    LTEXT           "62.5",IDC_STATIC,41,179,22,9
+    LTEXT           "125",IDC_STATIC,70,179,22,9
+    LTEXT           "500",IDC_STATIC,122,179,22,9
+    LTEXT           "1000",IDC_STATIC,149,179,22,9
+    LTEXT           "16000",IDC_STATIC,259,179,22,9
+    LTEXT           "250",IDC_STATIC,96,179,22,9
+    LTEXT           "8000",IDC_STATIC,234,179,20,9
+    LTEXT           "4000",IDC_STATIC,206,179,22,9
+    LTEXT           "2000",IDC_STATIC,178,179,22,9
+    LTEXT           "",IDC_STATIC6,252,58,22,8
+    RTEXT           "",IDC_STATIC5,201,200,17,8
+    GROUPBOX        "",IDC_STATIC,5,223,282,191
+    CONTROL         "Mixer",IDC_MIXER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,223,36,10
+    LTEXT           "Output Configuration:",IDC_STATIC,8,241,87,8
+    CONTROL         "LFE",IDC_LFE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,177,241,24,10
+    CONTROL         "Normalize matrix",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,203,241,80,10
+    LTEXT           "L",IDC_STATIC,23,260,8,8
+    LTEXT           "C",IDC_STATIC,47,260,8,8
+    LTEXT           "R",IDC_STATIC,75,260,8,8
+    LTEXT           "SideL",IDC_STATIC,93,260,20,8
+    LTEXT           "SideR",IDC_STATIC,119,260,22,8
+    LTEXT           "BackL",IDC_STATIC,147,260,21,8
+    LTEXT           "BackC",IDC_STATIC,177,260,23,8
+    LTEXT           "BackR",IDC_STATIC,205,260,25,8
+    LTEXT           "LFE",IDC_STATIC,235,260,15,8
+    LTEXT           "L",IDC_STATIC,258,271,8,8
+    LTEXT           "C",IDC_STATIC,258,287,8,8
+    LTEXT           "R",IDC_STATIC,258,301,8,8
+    LTEXT           "SideL",IDC_STATIC,258,317,20,8
+    LTEXT           "SideR",IDC_STATIC,258,335,22,8
+    LTEXT           "BackL",IDC_STATIC,258,351,21,8
+    LTEXT           "BackC",IDC_STATIC,258,365,23,8
+    LTEXT           "BackR",IDC_STATIC,258,381,25,8
+    LTEXT           "LFE",IDC_STATIC,258,395,15,8
+    COMBOBOX        IDC_CONFIGURATION,93,240,78,266,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "5.1",IDC_CHANNEL,236,47,50,14
+    PUSHBUTTON      "原来",IDC_RECOVER,255,198,27,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "SoundFil 动态链接库"
+            VALUE "FileVersion", "1, 0, 0, 4"
+            VALUE "InternalName", "SoundFil"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "OriginalFilename", "SoundFil.dll"
+            VALUE "ProductName", "SoundFil 动态链接库"
+            VALUE "ProductVersion", "1, 0, 0, 4"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_SOUNDTITLE          "声音设置"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
